@@ -1,13 +1,166 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Welcome</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <p>This is to check github</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    <!-- GS Style Sheet -->
+    <link rel="stylesheet" href="CSS\style.css">
 
-    </body>
+    <!-- Fontawesome icon CDN -->
+    <script src="https://kit.fontawesome.com/db95ff4669.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="title">
+        <!-- Navigation Bar -->
+        <div class="navbar-align">
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand">
+                <img src="Images/GWG Logo.png" alt="GWG" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="HTML/about.html">About</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="HTML/about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Blog</a>
+                </li>    
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact Me</a>
+                </li>
+            </ul>
+           </nav> 
+        </div>        
+        <!-- Title -->
+        <div class="container-fluid row">
+            <div class="title-text col-lg-6 col-mg-4 col-sm-12">
+                <h1>Ganapathi Subramaniam</h1>
+                <h3>(Gana)</h3>
+                check code
+                <h4>Engineer | Developer | Technology Enthusiast</h4>
+            </div>
+            <div class="container-fluid col-lg-6 col-mg-4 col-sm-12">
+                <img class="title-img" src="Images/gana.jpg" alt="Gana">
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- About me 
+    <section id="about">
+        <h1>About me</h1>
+        <p>A person with varied interests with an unwaivering energy. 
+            Having grown up in south of India, Gana loves summer and 
+            all south indian dishes such as Dosa, Idly and chutney.
+        </p>
+        
+        <div class="icon-style row">
+            <div class="col-lg-4">
+                <i class="fa-8x fa-solid fa-bolt"></i>
+                <h3>Energetic</h3>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-8x fa-brands fa-leanpub"></i>
+                <h3>Willing to learn</h3>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-8x fa-solid fa-bullseye"></i>
+                <h3>Curious and Solution Oriented</h3>
+            </div>
+        </div>
+        <p>Click here to learn more</p>
+    </section>
+    <!-- Hobbies Section 
+    <section id="hobbies">
+        <h1>My Interests</h1>
+        <p>I've varied interests and I try to explore as much as possible.
+            I try to pick up a new hobby frequently and put my effort into learning 
+            as much as possible about it. 
+        </p>
+        
+        <!-- Carousel Section 
+        <div id="gs-carousel" class="carousel slide">
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <i class="fa-6x fa-brands fa-youtube"></i>
+                <h1>Check 1</h1>
+                <p>This is hobby 1</p>
+              </div>
+              <div class="carousel-item">
+                <i class="fa-6x fa-solid fa-camera-retro"></i>
+                <h1>Check 2</h1>
+                <p>This is hobby 2</p>
+              </div>
+              <div class="carousel-item">
+                <i class="fa-6x fa-solid fa-pen-fancy"></i>
+                <h1>Check 3</h1>
+                <p>This is hobby 3</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gs-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gs-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#gs-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#gs-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#gs-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </div>
+    </section>
+
+     <!-- Blog Section  
+    <section id="blog">
+        <h1>My blog</h1>
+        <p>This is my blog- a space where I share a peice of my mind and also use it to enhance my domain knowledge</p>
+        <i class="fa-6x fa-solid fa-envelope-open-text"></i>
+        <h2>Click here to subscribe for my newsletter</h2>
+    </section>-->
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="row">
+            <!-- <div class="col-sm-2">
+                <i class="fa-2x fa-brands fa-square-instagram"></i>
+            </div> -->
+            <div class="col-sm-3">
+                <i class="fa-2x fa-solid fa-paper-plane"></i>
+            </div>
+            <div class="col-sm-3">
+                <i class="fa-2x fa-brands fa-linkedin"></i>
+            </div>
+            <div class="col-sm-3">
+                <i class="fa-2x fa-brands fa-github"></i>
+            </div>            
+            <div class="col-sm-3">
+                <i class="fa-2x fa-brands fa-youtube"></i>
+            </div>
+            
+        </div>
+        <br>
+        <p>© Copyright GrooveWithGana</p>
+    </section>        
+</body>
 </html>

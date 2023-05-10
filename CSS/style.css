@@ -1,0 +1,58 @@
+/* .navbar-align{
+    padding: 0% 10%;
+} */
+/* Navigation Bar */
+body{
+    background-color: #F0F2F5
+}
+.navbar-brand{
+    padding: 0%;
+    margin-left: 10px;
+}
+
+/* Title Section */
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+.title-text{
+    text-align: left;
+    padding: 5% 2%;
+}
+.title-img{
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+}
+/* 
+ About Me section 
+#about{
+    padding: 3% 15%;
+}
+.icon-style{
+    text-align: center;
+    padding: 10% 1%;
+}
+Hobbies section 
+#hobbies{
+    padding: 3% 15%;
+    background-color: rgb(83, 120, 120);
+}
+#gs-carousel{
+    padding: 3% 15%;
+}
+.carousel-inner{
+    text-align: center;
+}
+Blog Section 
+#blog{
+    padding: 3% 15%;
+} */
+
+/* Footer section */
+#footer{
+    padding: 3% 10%;
+    background-color: rgb(83, 120, 120); 
+    text-align: center; 
+}
