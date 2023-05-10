@@ -1,11 +1,30 @@
-body{
+/* body{
     background-color: #F0F2F5
 }
-/* Navigation Bar */
+/* Navigation Bar 
 .navbar-brand{
     padding: 0%;
     margin-left: 10px;
+} */
+
+/* Body */
+body{
+  background-color: #F0F2F5
 }
+
+/* Navigation Bar  */
+.navbar-brand{
+  padding: 0%;
+  margin-left: 10px;
+}
+.navbar{
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.nav-item{
+  padding-right: 16px;
+}
+
 /* About Section */
 .container-fluid{
     padding: 3% 15%;

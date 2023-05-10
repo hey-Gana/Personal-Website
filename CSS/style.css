@@ -1,15 +1,23 @@
 /* .navbar-align{
     padding: 0% 10%;
 } */
-/* Navigation Bar */
+/* Body */
 body{
     background-color: #F0F2F5
 }
+
+/* Navigation Bar  */
 .navbar-brand{
     padding: 0%;
     margin-left: 10px;
 }
-
+.navbar{
+    padding-left: 10px;
+    padding-right: 25px;
+}
+.nav-item{
+    padding-right: 16px;
+}
 /* Title Section */
 .container-fluid{
     padding: 3% 15%;
@@ -52,7 +60,10 @@ Blog Section
 
 /* Footer section */
 #footer{
-    padding: 3% 10%;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 350px;
     background-color: rgb(83, 120, 120); 
     text-align: center; 
-}
+}   
